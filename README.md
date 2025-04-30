@@ -1,6 +1,17 @@
 # Assembly New Tecnolocy RISC V and Linux Project
 Assembly New Technology is a programming language based on the Assembly language developed by Sahne Dünya and equipped with modern features. Assembly has long been a language used in low-level operations, but using this language is extremely difficult. Assembly is the lowest-level language developed in the World. In Assembly, codes are hardware-specific, code written for one hardware does not work on other hardware. There is also something called manual coding. What is manual coding? Manual coding is a type of coding consisting of codes that only do one job. There is no Standard Library like in other programming languages. The reason for the development of the Assembly New Technology programming language is that it will allow us to write simpler and more readable codes and do low-level tasks! First of all, this programming language is just like in Classic Assembly language, every code is hardware-specific because they will meet the same things, just like in Classic Assembly, it basically supports imperative programming, but Assembly New Technology also supports multiple programming. In Classic Assembly, jump and flags were used as control structures, Assembly New Technology uses match expressions like in modern languages ​​thanks to its pattern matching feature. This programming language has a Standard Library and a Standard Package Manager, these features are not available in Classic Assembly. Also, there is no need for a Header file, this is actually available in Classic Assembly, but it uses a simpler system, while Assembly New Technology uses a more complex module system, import. While there is Manual Memory Management in Classic Assembly, there is Ownership and Borrowing Memory Management in Assembly New Technology, this feature is taken from Rust. Thanks to this, this language can replace Assembly Language in low-level operations. However, I need your support, and also there is a separate Assembly language for each hardware, such a thing is in question in Assembly New Technology, and since it can change according to factors such as the operating system or Firmware, this is a very complex project. When Sahne Dünya first developed, its first project targeted the RISC-V CPU instruction set and Linux operating system, you can create other projects and release the version for another CPU architecture or another operating system.
 
+# Basic features
+* File extension: .ant (For Assembly New Tecnolocy)
+* Memory Management: Ownership and borrowing
+* Compilation type: Ahead-of-Time
+* The executable file developed for it: .anew
+* Underlying programming language: Assembly
+* Modern language features: yes
+* Standard Libray: yes
+* For which operating system: Linux
+* For which CPU instruction set: RISC-V
+
 # Target Hello World code
 ```
 import std::io;
