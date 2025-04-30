@@ -23,7 +23,6 @@ entry main() {
                     std::process::exit(1);
                 }
             }
-            // Hata işlendikten sonra (burada çıkış yapıldığı için bu satıra ulaşılmaz)
         }
     }
 }
