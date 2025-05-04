@@ -11,6 +11,8 @@ Assembly New Technology is a programming language based on the Assembly language
 * Standard Libray: yes
 * For which operating system: Linux
 * For which CPU instruction set: RISC-V
+* Target source file: 36 MB
+Main programming language: Assembly
 
 # Target Hello World code
 ```
